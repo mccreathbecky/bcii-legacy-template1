@@ -1,0 +1,88 @@
+/*Classes for Pages*/
+.intro {
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
+}
+
+.profile {
+  padding-top: 3rem;
+  padding bottom: 0rem;
+}
+
+.section {
+  background-color: #eeeeee; 
+  text-align: center;
+}
+
+.projects {
+  padding-top: 2rem;
+}
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0rem !important;
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 2.5rem;
+	letter-spacing: 0.2rem;
+}
+
+.projectPage {
+  text-align: center;
+}
+
+.img-rounded {
+  margin:auto;
+}
+
+.jumbotron {
+  position: relative;
+  background: url("building.jpg") center;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.jumbotron h1 {
+  padding-top: 45vh;
+  color: white;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*Text Adjustments*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #333333;
+}
+
+h1 {
+	font-size: 3.5rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+p {
+  line-height: 2.8rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.6rem;
+}
+
+/*Helpers*/
+.left {
+  text-align: left;
+}
+
+.margin {
+  padding-bottom: 3rem;
+}
+
+.margintop {
+  padding-top: 3rem;
+}

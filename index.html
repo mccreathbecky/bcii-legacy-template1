@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>My Home Page</title> <!-- This text is the text you see on your browser tab -->
+
+  <meta name="description" content="This template was created by Varun Mathew for the PPCE Elective 'Developing Technical Design Skills For Your Digital Portfolio', 2017">
+
+  <!-- Important links to libraries -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- This is the style sheet that we created -->
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- // Static Navbar // -->
+
+  <!-- Change 'static' to 'fixed' if you want the navbar to be anchored at the top of your screen -->
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+
+        <!-- Menu button for smaller screen size -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand" href="index.html">VM 
+          <!-- If you would like a logo instead of text, you can insert it here -->
+          <!-- <img src="..." alt="..." /> -->
+        </a>
+      </div>
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="portfolio.html">Projects</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="#">Contact</a></li> <!-- # indicates a link to another file -->
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- // Introduce Yourself // -->
+
+  <div class="intro">
+    <div class="container">
+      <div class="row">
+
+        <!-- These columns are set up to display the text next to the image -->
+
+        <div class="col-xs-6 col-md-4 profile">
+          <img class="img-responsive img-circle" src="square.png" alt="Profile Picture" />
+        </div>
+
+        <div class="col-xs-12 col-md-8">
+
+          <a name="about"></a> <!-- This anchor is so the ABOUT in the navbar can link to this section -->
+
+          <h1>VM's Portfolio</h1>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies pretium tortor, a pulvinar dui varius sed. Morbi nec varius ex, sed convallis odio. Pellentesque venenatis felis sed purus ultricies egestas. Sed commodo venenatis mi et cursus. Cras urna tellus, dictum in leo vel, auctor egestas lacus. Quisque condimentum mi nec ultrices laoreet. Mauris blandit blandit nibh ut porttitor. Praesent nisl dolor, laoreet et lacinia quis, congue vitae turpis. Suspendisse hendrerit lacus non sodales dignissim. Aenean metus libero, aliquet eu consequat maximus, vehicula et tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vel faucibus massa. Donec viverra, enim eu luctus lacinia, nunc lorem consequat sem, eu placerat risus metus sit amet nisi. Quisque mollis odio augue, non ornare tortor tincidunt quis.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies pretium tortor, a pulvinar dui varius sed. Morbi nec varius ex, sed convallis odio. Pellentesque venenatis felis sed purus ultricies egestas. Sed commodo venenatis mi et cursus. Cras urna tellus, dictum in leo vel, auctor egestas lacus. Quisque condimentum mi nec ultrices laoreet. Mauris blandit blandit nibh ut porttitor. Praesent nisl dolor, laoreet et lacinia quis, congue vitae turpis. Suspendisse hendrerit lacus non sodales dignissim. Aenean metus libero, aliquet eu consequat maximus, vehicula et tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vel faucibus massa. Donec viverra, enim eu luctus lacinia, nunc lorem consequat sem, eu placerat risus metus sit amet nisi. Quisque mollis odio augue, non ornare tortor tincidunt quis.</p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- // Projects // -->
+
+  <div class="container-fluid section">
+    <div class="container projects">
+      <div class="row">
+
+        <!-- # indicates a link to another page -->
+        <!-- replace img src with your image file -->
+
+        <div class="col-xs-6 col-md-4">
+          <a class="" href="project1.html"><img class="img-responsive img-rounded" src="square.png" alt="Apples" /></a>
+          <p>APPLES</p>
+        </div>
+
+        <div class="col-xs-6 col-md-4">
+          <a class="" href="#"><img class="img-responsive img-rounded" src="square.png" alt="Oranges" /></a>
+          <p>ORANGES</p>
+        </div>
+
+        <div class="col-xs-6 col-md-4">
+          <a class="" href="#"><img class="img-responsive img-rounded" src="square.png" alt="Legacy" /></a>
+          <p>LEGACY</p>
+        </div>
+
+        <div class="col-xs-6 col-md-4">
+          <a class="" href="#"><img class="img-responsive img-rounded" src="square.png" alt="Project #4" /></a>
+          <p>Project #4</p>
+        </div>
+
+        <div class="col-xs-6 col-md-4">
+          <a class="" href="#"><img class="img-responsive img-rounded" src="square.png" alt="Project #5" /></a>
+          <p>Project #5</p>
+        </div>
+
+        <div class="col-xs-6 col-md-4">
+          <a class="" href="#"><img class="img-responsive img-rounded" src="square.png" alt="Project #6" /></a>
+          <p>Project #6</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
